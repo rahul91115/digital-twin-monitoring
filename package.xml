@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypelayout="1.0"?>
+<package format="3">
+  <name>digital_twin_monitoring</name>
+  <version>1.0.0</version>
+  <description>Digital Twin-based state monitoring and anomaly detection system using ROS2</description>
+  <maintainer email="your.email@example.com">Your Name</maintainer>
+  <license>Apache-2.0</license>
+
+  <depend>rclcpp</depend>
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>moveit_core</depend>
+  <depend>moveit_ros_planning</depend>
+  <depend>cv_bridge</depend>
+  <depend>opencv4</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>ament_cmake</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+</package>
